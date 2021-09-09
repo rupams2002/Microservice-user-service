@@ -1,0 +1,16 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: USER-SERVICE
+
+#ADDED TO BOOTSTRAP FILE
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://172.17.0.4:8761/eureka/
+  instance:
+    hostname: localhost
