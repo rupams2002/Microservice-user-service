@@ -5,6 +5,7 @@ spring:
   application:
     name: USER-SERVICE
 
+
 #ADDED TO BOOTSTRAP FILE
 #eureka:
 #  client:
